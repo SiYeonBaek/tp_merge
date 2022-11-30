@@ -12,7 +12,11 @@
 		border-bottom: 1px solid #bbb;
 		text-align: center;
 		width: 800px;
+<<<<<<< HEAD
 		margin: 50px auto 10px;
+=======
+		margin: 0px auto 10px;
+>>>>>>> jy
 		padding-bottom: 30px;
 	}
 	
@@ -133,6 +137,12 @@
 </script>
 </head>
 <body>
+<<<<<<< HEAD
+=======
+	<!-- Header -->
+	<jsp:include page="../include/header.jsp" />
+
+>>>>>>> jy
 	<div class="textArea">
 		<h1>아이디 찾기</h1>
 	</div>

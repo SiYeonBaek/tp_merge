@@ -19,11 +19,16 @@
       </style>
    </head>
    <body style="width: 1800px; margin: 0 auto; padding: 0;">
+<<<<<<< HEAD
+=======
+   
+>>>>>>> jy
       <!-- Header -->
       <jsp:include page="include/header.jsp"/>
       
       <!-- Main -->
       <div style="width: 1100px; margin: 0 auto; ">
+<<<<<<< HEAD
          <div style="width:1100px; height:300px; display: flex">
             <div style="border:1px solid blue; width:50%; float: left">
          
@@ -47,6 +52,38 @@
             </c:forEach>
          </div>
       </div>
+=======
+      
+         <div style="width:1100px; height:300px; display: flex">
+            <div style="border:1px solid blue; width:50%; float: left"></div>
+            <div style="border:1px solid green; width:50%; float: left"></div>   
+         </div>
+         
+         
+         
+         <div style="width:1100px;border:1px solid red; overflow:hidden;display: inline-block;">
+         
+            <div style="border:1px solid green; height: 10%;">
+               <span style="font-size: 20px">넉넉한 자유시간, 여행 만족도 UP!</span>
+            </div>
+            
+        	 <div style=" display: inline-b	lock; flex-direction: row; flex-wrap: wrap; text-align: center; width: 1100px;">
+        	 
+	            <c:forEach var="vo" items="${list }">
+	               <div style="float: left; width: 25%; margin: auto;">
+		               <div>
+		                  <img src="${pageContext.request.contextPath}/resources/img/${vo.pmainimg}" />
+		               </div>
+		               <div>${vo.pidx}${vo.pname}</div>
+		               <div>${vo.pprice }</div>
+	            	</div>
+	            </c:forEach>
+	            
+        	 </div>
+        	 
+      	</div>
+      
+>>>>>>> jy
    </div>
       
    </body>

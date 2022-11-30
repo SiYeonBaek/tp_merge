@@ -134,7 +134,10 @@
 		</c:if>
 	</div> <!-- loginArea end -->
 	<br>
+<<<<<<< HEAD
 	
+=======
+>>>>>>> jy
 		
 </body>
 </html>
